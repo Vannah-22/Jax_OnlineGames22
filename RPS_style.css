@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 7px;
+    padding: 5px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.divA {
+    background-color: #fc7a1e;
+    border: 5px solid chocolate;
+    border-radius: 3%;
+    height: 100%;
+    width: 95%;
+    display: flexbox;
+    justify-self: center;
+}
+    .boxTop {
+        border: 5px solid goldenrod;
+        border-radius: 5%;
+        background-color: #f5e663;
+        font-family: Stick;
+        color: #181818;
+        font-size: large;
+    }
+
+    #titleRPS {
+        color: darkred;
+    }
+
+    .boxMid {
+        margin: 75px;
+        padding: 0px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+        button {
+            height: 75px;
+            width: 200px;
+            border-radius: 10%;
+            border-width: 10px;
+            border-color: #9c433b;
+            background-color: #bd4b47;
+            font-family: Stick;
+            font-weight: bold;
+            font-size: large;
+            letter-spacing: 5px;
+        }
+            #rock:hover {
+                cursor: url("Rock32.png"), default;
+            }
+            #paper:hover {
+                cursor: url("Paper-hand32.png"), default;
+            }
+            #scissors:hover {
+                cursor: url("scissors32.png"), default;
+            }
+        /* END OF button STYLES */
+        
+/* END OF divA STYLES */
+
+    .creator {
+        margin: 2%;
+        padding-top: 2%;
+        display: block;
+
+    }
